@@ -1,0 +1,1 @@
+public String getSandwich(String str) { if(str.length()>10){ int firstindex=str.indexOf("bread"); int lastindex=str.lastIndexOf("bread"); return str.substring(firstindex+5,lastindex);  } return ""; /*String s=str.substring(n);  if(s.startsWith("jam")&&s.contains)  return s;*/ }

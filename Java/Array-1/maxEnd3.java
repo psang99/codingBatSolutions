@@ -1,0 +1,1 @@
+public int[] maxEnd3(int[] nums){ int a=nums[0]; int b=nums[nums.length-1]; int t=0; if(a<b)  {  t=a;  a=b;  b=t;  }  int r[]={a,a,a}; return r;}

@@ -1,0 +1,1 @@
+public String frontBack(String str) { String f,m,b; if(str.length()==1 || str.length()==0)  { return str;  } else{ f=str.substring(0,1); m=str.substring(1,str.length()-1); b=str.substring(str.length()-1,str.length()); return b+m+f;}}

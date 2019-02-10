@@ -1,0 +1,1 @@
+public boolean lessBy10(int a, int b, int c) { int ax=0,bx=0,cx=0; ax=Math.abs(a-b); bx=Math.abs(b-c); cx=Math.abs(a-c); if(ax>=10||bx>=10||cx>=10) return true; return false; }

@@ -1,0 +1,1 @@
+public int countHi(String str) { if(str.length()<2) return 0; byte b=0; char ch[]= new char[str.length()];     ch=str.toCharArray(); for(int i=0;i<str.length();i++)  {  if(ch[i]=='h'&&ch[i+1]=='i')  b++;  } return b; }

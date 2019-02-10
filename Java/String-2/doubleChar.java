@@ -1,0 +1,1 @@
+public String doubleChar(String str) { String d=""; for(int i=0;i<str.length();i++)  {  d=d+str.charAt(i)+str.charAt(i);  } return d;}

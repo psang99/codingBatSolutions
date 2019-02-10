@@ -1,0 +1,1 @@
+public int[] swapEnds(int[] nums){ if(nums.length<2) return nums;  int t[]=new int[nums.length]; t=nums; int x=0; x=t[0]; t[0]=t[t.length-1]; t[t.length-1]=x;  return t;   }

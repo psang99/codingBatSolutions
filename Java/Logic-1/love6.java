@@ -1,0 +1,1 @@
+public boolean love6(int a, int b){ boolean t=false; if(a==6 || b==6) return true; int z=a+b; int x=a-b; int e=b-a; if(z==6||x==6||e==6) return true; return false; }

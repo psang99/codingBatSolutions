@@ -1,0 +1,1 @@
+public String comboString(String a, String b) { String t=(a.length()<b.length())?a+b+a:b+a+b; return t;}

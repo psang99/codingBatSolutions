@@ -1,0 +1,1 @@
+public int maxMod5(int a, int b) { int ax=0; if(a%5==b%5)  {  if(a==b)  return 0;  return ax=(a<b)?a:b;  } return ax=(a>b)?a:b;}

@@ -1,0 +1,1 @@
+public String theEnd(String str, boolean front) { String r=""; if(str.length()<=1) return str; if(front) r=r+str.substring(0,1); else r=r+str.substring(str.length()-1); return r; }

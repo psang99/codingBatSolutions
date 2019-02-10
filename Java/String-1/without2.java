@@ -1,0 +1,1 @@
+public String without2(String str) {  if(str.length()<2)  return str;   String c=str.substring(0,2);  if(str.startsWith(c)&& str.endsWith(c))  return str.substring(2);   return str;}

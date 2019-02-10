@@ -1,0 +1,1 @@
+public String stringSplosion(String str){ if(str.length()<=1) return str; String r="";//str.substring(0,1); for(int j=0;j<str.length();j++) for(int i=0;i<=j;i++) r=r+str.substring(i,i+1); return r;}

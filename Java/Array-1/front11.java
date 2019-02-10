@@ -1,0 +1,1 @@
+public int[] front11(int[] a, int[] b){int t[]=new int[0]; if(a.length==0&&b.length==0) return t ; if(a.length==0)  {t=new int[1]; t[0]=b[0];  } if(b.length==0)  { t=new int[1]; t[0]=a[0];  }  if(a.length>=1&&b.length>=1)  { t=new int[2]; t[0]=a[0]; t[1]=b[0];  } return t; }

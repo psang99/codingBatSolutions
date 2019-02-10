@@ -1,0 +1,1 @@
+public int withoutDoubles(int die1, int die2, boolean noDoubles) { int sum=0;if(noDoubles){ if(die1==6||die2==6)  {  return sum=7;  } if(die1==die2) return sum=die1+die2+1; /*if(die1==6)  return sum=1+die2;  else if(die2==6)  return sum=1+die1;  else if(die1==die2)  return sum=die1+die2+1;*/}return die1+die2;  }

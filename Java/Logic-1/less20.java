@@ -1,0 +1,1 @@
+public boolean less20(int n) { int x=n/20; x=(x+1)*20; int y=Math.abs(x-n); if(y==1||y==2) return true; return false; }

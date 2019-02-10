@@ -1,0 +1,1 @@
+public boolean posNeg(int a, int b, boolean negative) {int x=Integer.signum(a);int y=Integer.signum(b);if(x+y == 0&& negative== false)return true;if(x+y<0 && negative)return true;return false;}

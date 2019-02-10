@@ -1,0 +1,1 @@
+public String extraFront(String str) { if(str.length()<1) return "";  if(str.length()<3&&str.length()>=1) return str+str+str;  String h=str.substring(0,2); return h+h+h; }

@@ -1,0 +1,1 @@
+public boolean endOther(String a, String b) {  if(a.length()==0&&b.length()==0)  return true;   if(a.toLowerCase().endsWith(b.toLowerCase())||b.toLowerCase().endsWith(a.toLowerCase()))  return true;   return false; }

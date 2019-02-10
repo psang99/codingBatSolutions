@@ -1,0 +1,1 @@
+public boolean nearTen(int num){ int x=num/10; x=(Math.round(x))*10; int y=Math.abs(x-num); if(y==1||y==2||y==0) return true; if((num+2)%10==0||(num+1)%10==0) return true; return false; }

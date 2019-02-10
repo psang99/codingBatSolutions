@@ -1,0 +1,1 @@
+public String delDel(String str) { if(str.length()==0 || str.length()<=3) return str; String h=null; String t=str.substring(1,4); if(t.equals("del"))  { h=str.substring(0,1)+str.substring(4,str.length()); return h;} else return str; }

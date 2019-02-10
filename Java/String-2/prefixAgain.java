@@ -1,0 +1,1 @@
+public boolean prefixAgain(String str, int n) {  String s=str.substring(0,n);  String h=str.substring(n);  if(h.contains(s))  return true;  return false; }

@@ -1,0 +1,1 @@
+public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep){  if(isMorning)  {  if(isMom&&isAsleep)  return false;  else if(isMom&&!isAsleep)   return true;   else if(isMom==false)     return false;  }   if(isAsleep)  return false;  return true;}

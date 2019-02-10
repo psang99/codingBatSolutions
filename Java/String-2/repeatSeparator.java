@@ -1,0 +1,1 @@
+public String repeatSeparator(String word, String sep, int count) {String g=""; int h=count-1; for(int i=0;i<count;i++)  {  g=g+word;  if(h>0)  g=g+sep;  h--;  } return g;}

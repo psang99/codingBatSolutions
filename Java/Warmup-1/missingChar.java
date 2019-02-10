@@ -1,0 +1,1 @@
+public String missingChar(String str, int n) {char s[]=str.toCharArray();String t="";for(int i=0;i<str.length();i++){if(i!=n){t=t.concat(s[i]+"");}}return t; }

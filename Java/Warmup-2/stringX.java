@@ -1,0 +1,1 @@
+public String stringX(String str) { if(str.length()<=2) return str; String t=str.substring(1,str.length()-1); String m=t.replace("x",""); return str.charAt(0)+m+str.charAt(str.length()-1); /*for(int i=0;i<t.length();i++)  {  if(t.charAt(i)=='x')  continue;  else  t=t+t.charAt(i);    }*/  //return t; }

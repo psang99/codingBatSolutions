@@ -1,0 +1,1 @@
+public int close10(int a, int b) {  int x,y;  x=Math.abs(a-10);  y=Math.abs(b-10);  if(x==y)  return 0;  int h=(x<y)?a:b;  return h; }

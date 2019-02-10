@@ -1,0 +1,1 @@
+public int[] frontPiece(int[] nums) { if(nums.length<3) return nums;  int t[]={nums[0],nums[1]};  return t;}

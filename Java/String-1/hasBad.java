@@ -1,0 +1,1 @@
+public boolean hasBad(String str) { if(str.length()<3) return false;  if(str.length()==3 && str.startsWith("bad") ) return true;   if(str.length()>3) if(str.startsWith("bad") || str.substring(1,4).equals("bad")) return true;  return false;}

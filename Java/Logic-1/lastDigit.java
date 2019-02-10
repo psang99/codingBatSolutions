@@ -1,0 +1,1 @@
+public boolean lastDigit(int a, int b, int c) {  int ax=0,bx=0,cx=0;  ax=a%10;  bx=b%10;  cx=c%10;  return (ax==bx||ax==cx||bx==cx); }

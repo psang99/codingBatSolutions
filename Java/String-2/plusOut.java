@@ -1,0 +1,1 @@
+public String plusOut(String str, String word){  String new1=str.replaceAll(word,"+"); String t=""; int i=0;    while(i<new1.length())     {      if(new1.charAt(i)!='+')       {t+='+';i++;}      else       {        t+=word;        i+=1;       }     } return t;}

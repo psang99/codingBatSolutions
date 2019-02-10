@@ -1,0 +1,1 @@
+public boolean xyzMiddle(String str) {  if(str.contains("xyz"))  {  for(int i=0;i<=str.length()-3;i++)   {   if(str.substring(i,i+3).equals("xyz"))    {    //if(i>=1)     {     if(Math.abs(i-(str.length()-(i+3)))<2)     return true;     }    }      }  } return false; }

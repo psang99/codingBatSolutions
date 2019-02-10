@@ -1,0 +1,1 @@
+public String withouEnd2(String str) { String r=""; if(str.length()<2) return r;  return str.substring(1,str.length()-1); }

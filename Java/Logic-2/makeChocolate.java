@@ -1,0 +1,1 @@
+public int makeChocolate(int small, int big, int goal) {int res=0;int i=0;if(goal>big*5+small) return -1;while(res<=goal && i<big) {res=res+5; i++;}if(res==goal) return 0;if(res>goal) res=res-5;if(goal-res>small) return -1;return (goal-res);}
